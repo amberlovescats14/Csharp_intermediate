@@ -7,19 +7,6 @@ namespace Mosh_Part2
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Person.Parse("Amber");
-
-            //set values initially
-            var person = new Person
-            {
-                Name = "Amber"
-            };
-
-
-            var customer = new Customer();
-            
-
-
         }
     }
 }

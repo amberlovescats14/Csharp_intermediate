@@ -1,9 +1,9 @@
 ﻿using System;
 namespace Mosh_Part2
 {
-    public class Person
+    public class LinqExamples
     {
-        public Person()
+        public LinqExamples()
         {
         }
     }
