@@ -1,14 +1,12 @@
 ﻿using System;
-
+using Mosh_Part2.oop;
 namespace Mosh_Part2
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var stopwatch = new exerecises.Stopwatch();
-            stopwatch.Start();
-            stopwatch.Start();
+
 
 
             Console.WriteLine("Hello World!");
@@ -32,7 +30,17 @@ namespace Mosh_Part2
             var linqExamples = new LinqExamples();
             //linqExamples.getFordCars();
 
-            stopwatch.Stop();
+            //var stopwatch = new exerecises.Stopwatch();
+            //stopwatch.Start();
+            //stopwatch.Start();
+            //stopwatch.Stop();
+
+            //autoboxing with a super constructor
+            PresentationObject text = new Text("Amber");
+            //text.Copy();
+
+            var extensionMethodsTest = new TestingExtensionMethods();
+            extensionMethodsTest.testPop();
 
 
 

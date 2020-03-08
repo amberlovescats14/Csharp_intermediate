@@ -6,5 +6,11 @@ namespace Mosh_Part2.oop
         public LoggerComposition()
         {
         }
+
+        public void Log()
+        {
+            Console.WriteLine("Logging a message...");
+
+        }
     }
 }
