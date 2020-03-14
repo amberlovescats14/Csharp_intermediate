@@ -22,6 +22,8 @@ namespace Mosh_Part2.oop
             var poppedString = string.Join(",", popped);
             Console.WriteLine("Original: "+ original);
             Console.WriteLine("Popped: " + poppedString);
+
+
         }
     }
 }

@@ -8,5 +8,6 @@
   <ItemGroup>
     <Folder Include="exerecises\" />
     <Folder Include="oop\" />
+    <Folder Include="dbConnection\" />
   </ItemGroup>
 </Project>
