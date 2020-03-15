@@ -9,5 +9,6 @@
     <Folder Include="exerecises\" />
     <Folder Include="oop\" />
     <Folder Include="dbConnection\" />
+    <Folder Include="workflowExercise\" />
   </ItemGroup>
 </Project>

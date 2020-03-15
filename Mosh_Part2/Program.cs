@@ -1,5 +1,6 @@
 ﻿using System;
 using Mosh_Part2.oop;
+using Mosh_Part2.workflowExercise;
 namespace Mosh_Part2
 {
     class Program
@@ -39,8 +40,13 @@ namespace Mosh_Part2
             PresentationObject text = new Text("Amber");
             //text.Copy();
 
-            var extensionMethodsTest = new TestingExtensionMethods();
-            extensionMethodsTest.testPop();
+            //var extensionMethodsTest = new TestingExtensionMethods();
+            //extensionMethodsTest.testPop();
+
+            var workflowEngine = new WorkflowEngine();
+            workflowEngine.AddWorkFlowToList(new Scrum());
+            workflowEngine.AddWorkFlowToList(new WorkHours());
+            workflowEngine.Run();
 
 
 
